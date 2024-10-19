@@ -13,7 +13,10 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'  # Укажите необходимую версию Python
+        python-version: '3.x'  
+
+    - name: Display script content
+      run: cat script.py  
 
     - name: Run Python Script
-      run: python script.py
+      run: python script.py 

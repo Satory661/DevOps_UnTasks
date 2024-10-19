@@ -1,0 +1,1 @@
+print("Samiy luchshiy den")
