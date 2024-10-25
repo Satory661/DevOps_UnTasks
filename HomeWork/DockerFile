@@ -1,0 +1,7 @@
+FROM python:3.9
+
+COPY first-container.py /app/first-container.py
+
+WORKDIR /app
+
+CMD ["python", "first-container.py"]
