@@ -4,4 +4,6 @@ COPY first-container.py /app/first-container.py
 
 WORKDIR /app
 
+EXPOSE 8000
+
 CMD ["python", "first-container.py"]
